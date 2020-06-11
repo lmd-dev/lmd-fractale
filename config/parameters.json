@@ -1,0 +1,55 @@
+{
+  "parameters": [
+    {
+      "name": "x",
+      "inputType": "1",
+      "value": "-0.65"
+    },
+    {
+      "name": "y",
+      "inputType": "1",
+      "value": "0.0"
+    },
+    {
+      "name": "w",
+      "inputType": "1",
+      "value": "4"
+    },
+    {
+      "name": "t",
+      "inputType": "3",
+      "value": "Mandelbrot",
+      "availables": [ "Mandelbrot", "Julia" ]
+    },
+    {
+      "name": "itmax",
+      "inputType": "1",
+      "value": "500"
+    },
+    {
+      "name": "ow",
+      "inputType": "1",
+      "value": "1920"
+    },
+    {
+      "name": "oh",
+      "inputType": "1",
+      "value": "1080"
+    },
+    {
+      "name": "coefcolor",
+      "inputType": "1",
+      "value": "1"
+    },
+    {
+      "name": "threads",
+      "inputType": "1",
+      "value": "128"
+    },
+    {
+      "name": "array",
+      "inputType": "4",
+      "value": "0"
+    }
+  ]
+}

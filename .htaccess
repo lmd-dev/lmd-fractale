@@ -1,0 +1,8 @@
+#Activation de la réécriture d'URL
+RewriteEngine On 
+  
+#Accès à l'API permettant de récupérer la liste des paramètres de l'application
+RewriteRule "^parameters" "api/get-parameters.php" 
+
+#Accès à l'API permettant de générer la fractale
+RewriteRule "^generate" "api/generate.php"

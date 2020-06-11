@@ -1,0 +1,155 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    background-color: #000;
+}
+
+#waiting {
+    position: fixed;
+    z-index: 10;
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/waiting.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #waiting > div {
+        padding-top: 250px;
+        color: #fff;
+    }
+
+#parameters {
+    height: 100%;
+    width: 200px;
+    min-width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #171212;
+    color: #fff;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#logo {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+
+#lmd {
+    margin-bottom: 0;
+    color: #897777;
+}
+
+#fractales {
+    margin-top:0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+#parameters-list {
+}
+
+    #parameters-list > div {
+        margin-bottom: 10px;
+    }
+
+.field-input, .field-select, .field-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input, select, button {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 70px;
+    min-width: 70px;
+}
+
+#drawing-area {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#actions {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-mode {
+    width: 100%;
+    height: 27px;
+    margin-left: 10px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    .btn-mode.selected {
+        background-color: #fff
+    }
+
+    .btn-mode:first-child {
+        margin-left: 0;
+    }
+
+    .btn-mode.center {
+        background-image: url(../img/target-white.svg);
+    }
+
+        .btn-mode.center.selected {
+            background-image: url(../img/target.svg);
+        }
+
+    .btn-mode.zoom-in {
+        background-image: url(../img/zoom-in-white.svg);
+    }
+
+        .btn-mode.zoom-in.selected {
+            background-image: url(../img/zoom-in.svg);
+        }
+
+    .btn-mode.zoom-out {
+        background-image: url(../img/zoom-out-white.svg);
+    }
+
+        .btn-mode.zoom-out.selected {
+            background-image: url(../img/zoom-out.svg);
+        }
